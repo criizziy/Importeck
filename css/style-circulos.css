@@ -1,0 +1,74 @@
+.log{  
+width: 100%;  
+overflow:hidden;  
+position:relative;
+top:-150px;
+}  
+  
+.log ul{  
+margin: 0;  
+padding: 0;  
+font: bold 14px Verdana;  
+list-style-type: none;  
+text-align: center;  
+}  
+  
+.log li{  
+display: inline;  
+margin: 0;  
+}  
+  
+.log li a{  
+display:inline-block;  
+text-align:center;  
+text-decoration: none;  
+color: white;  
+background:#0066FF;  
+margin: 0;  
+margin-right:90px; 
+width:250px;  
+height:250px;  
+border-radius: 400px; 
+-moz-border-radius: 400px;  
+-webkit-border-radius: 400px;  
+font-size:20px;
+}  
+  
+.log a span{  
+position:relative;  
+top:40%;  
+}  
+  
+.log li a:visited{  
+color: white;  
+}  
+  
+.log a:hover{  
+background: #00E600;
+}  
+
+
+ .log li a {
+   margin: 50px;
+   width: 300px;
+   height: 300px;
+   background-color: #1b6d79;
+   
+   
+   transition-property: width, height, background-color;
+   transition-duration: 0.5s, 1s, 1s;
+   transition-timing-function: ease, ease-out;
+   transition-delay: 0s ,0.5s, 1.5s;
+  }
+   .log a:hover {
+      width: 320px;
+      height: 300px;
+      background-color: #3ca3b2;
+      transition-property: width, height, background-color;
+      transition-duration: 0.5s, 0.5s, 0.5s;
+      transition-timing-function: linear, linear;
+      transition-delay: 0s ,0.5s, 0.5s;
+   }
+   
+   
+ 

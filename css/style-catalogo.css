@@ -1,0 +1,54 @@
+.catalogo-1{
+
+	width: 100%;
+	height: auto;
+	
+
+}
+
+.pg-1{
+
+	width: 550px;
+	height: 700px;
+	background: url('../img/catalogo/hojas-izquierdas.png');
+	float: right;
+}
+.pg-2{
+
+	width: 550px;
+	height: 700px;
+	background: url('../img/catalogo/hojas-derechas.png');
+	float:left;
+}
+.btn-c-izq{
+	height: 78px;
+	width: 50px;
+	background: url('../img/catalogo/boton-izquierdo.png');
+	float: left;
+	margin-top: 270px;
+	
+	position: relative;
+	right: -2.5px;
+
+}
+.btn-c-dere{
+	height: 78px;
+	width: 50px;
+	background: url('../img/catalogo/boton-derecho.png');
+	float: right;
+	margin-top: 270px;
+	
+
+}
+.dere{
+	width: 50%;
+	height: 700px;
+	float:left;
+
+}
+.izq{
+	width: 50%;
+	height: 700px;
+	float:right;
+
+}
